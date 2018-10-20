@@ -1,0 +1,31 @@
+{
+  "name": "produtonodejs",
+  "version": "1.0.0",
+  "description": "Produto",
+  "repository": {
+    "url": "https://github.com/tiago154",
+    "type": "git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Tiago Santos Da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "filter-files": "^0.4.0",
+    "joi": "^13.7.0",
+    "joi-objectid": "^2.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.3",
+    "restify": "^7.2.1",
+    "restify-joi-middleware": "^5.0.0",
+    "swagger-jsdoc": "^3.2.3",
+    "swagger-tools": "^0.10.4",
+    "swagger-ui-restify": "^3.0.8"
+  }
+}
