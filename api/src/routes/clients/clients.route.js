@@ -13,7 +13,8 @@ module.exports = [
         path: '/clientes/:id',
         name: 'clientesGetById',
         handler: controller.getById,
-        validation: {
+        validation:
+        {
             schema: {
                 params: validator.byIdParams
             }
@@ -24,7 +25,8 @@ module.exports = [
         path: '/clientes',
         name: 'clientesPost',
         handler: controller.post,
-        validation: {
+        validation:
+        {
             schema: {
                 body: validator.clientPostBody
             }
@@ -35,7 +37,8 @@ module.exports = [
         path: '/clientes/:id',
         name: 'clientesPut',
         handler: controller.put,
-        validation: {
+        validation:
+        {
             schema: {
                 params: validator.byIdParams
             }
@@ -46,7 +49,8 @@ module.exports = [
         path: '/clientes/:id',
         name: 'clientesDel',
         handler: controller.delete,
-        validation: {
+        validation:
+        {
             schema: {
                 params: validator.byIdParams
             }
